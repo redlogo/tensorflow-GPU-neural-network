@@ -23,4 +23,5 @@ System build info:
   
   
   
-  ![alt tag](https://github.com/redlogo/Linux-Ubuntu-GPU-fan-speed-curve-control/blob/master/GPU-fan-control-deployment-figure.png)
+  ![alt tag](https://github.com/redlogo/tensorflow-GPU-neural-network/blob/master/tensorboard-GPU-neural-network.png)
+  
