@@ -1,0 +1,18 @@
+CPU: i3-7100
+Motherboard: H270
+GPU: GTX 1080 Ti
+RAM: 8GB * 2
+Storage: SSD
+System power: 650W
+
+nvidia-smi
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 375.39                 Driver Version: 375.39                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Graphics Device     Off  | 0000:01:00.0      On |                  N/A |
+| 26%   43C    P8    20W / 250W |    467MiB / 11169MiB |      1%      Default |
++-------------------------------+----------------------+----------------------+
+with manual GPU fan control
