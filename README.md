@@ -20,3 +20,7 @@ System build info:
   --env: python 2.7, tensorflow 1.0.1, CUDA 8.0, cuDNN installed.
   
   --plan to change GPU to watercool for full load run, yeah baby.
+  
+  
+  
+  ![alt tag](https://github.com/redlogo/Linux-Ubuntu-GPU-fan-speed-curve-control/blob/master/GPU-fan-control-deployment-figure.png)
