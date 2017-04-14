@@ -25,3 +25,4 @@ System build info:
   
   ![alt tag](https://github.com/redlogo/tensorflow-GPU-neural-network/blob/master/tensorboard-GPU-neural-network.png)
   
+  ![alt tag](https://github.com/redlogo/tensorflow-GPU-neural-network/blob/master/training-results.png)
