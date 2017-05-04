@@ -20,7 +20,7 @@ for X_Y_training_data_initialization in range(1):
     alpha = 0.25
     regularization = 0.0002
     iteration = 5000
-    data_type = 32
+    data_type = 64
 
     X_train_my_format = tfnnGPU.np_zeros(N*K, 2, data_type)
     Y_train_my_format = tfnnGPU.np_zeros(N*K, K, data_type)
@@ -94,7 +94,12 @@ for plot_prediction_data in range(1):
     plt.plot(X_predict[Y_predict_result[:, 2] == 1, 0], X_predict[Y_predict_result[:, 2] == 1, 1], 'gx')
     plt.show()
 
-# run on GTX 1080 Ti (11GB memory, 11TOPS/s capability)
+# run on GTX 1080 Ti (11GB memory, 11TOPS/s capability), tensorflow 1.0.1
 # FP16 total run time is: 34.2296459675 seconds
 # FP32 total run time is: 25.6236679554 seconds
 # FP64 total run time is: 194.550112009 seconds
+
+# run on GTX 1080 Ti (11GB memory, 11TOPS/s capability), tensorflow 1.1.0
+# FP16 total run time is: 19.9584898949 seconds
+# FP32 total run time is: 14.3683199883 seconds
+# FP64 total run time is: 102.75393796 seconds
